@@ -4,6 +4,7 @@ body{
 
 
 .cointainer{
+   
     width:100vw ;
     height: 100vh;
 
@@ -18,21 +19,36 @@ body{
 
 }
 
+.logo-container{
+    width:100vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+
+}
 
 .tomato{
 
+    grid-column: 1/3;
+
+    
     width: 50%;
-    text-align: left;
+    text-align: center;
 
 }
 
 .watch{
-
-    width: 50%;
-    text-align: center;
+    grid-column: 2/-1;
+    width: 100%;
+    text-align: right;
 }
 
+.tomato,.watch{
+    grid-row: 1/2;
+}
 
 
 .line{
@@ -41,12 +57,11 @@ body{
 
 }
 
-.logo-container{
-    width: 50%;
-}
+
 
 .login-field,.password-field,input[type="text"],input[type="password"]{
 
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,6 +84,7 @@ body{
 
 
 button{
+    margin-left: 20px;
     background: #88C057;
     border-radius: 30px;
     border: 2px solid #88C057;
@@ -106,8 +122,8 @@ form{
 }
 
 img{
-    height: 7em;
-    margin: 2em;
+    /* height: 7em;
+    margin: 2em; */
 }
 
 
