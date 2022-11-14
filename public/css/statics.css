@@ -1,6 +1,5 @@
 
-
-.toDoList_button{
+.statistics{
     background-color: #88C057;
     border-radius: 0px 30px;
 
@@ -16,6 +15,7 @@ main{
     align-items: center;
     height: 50vh;
 }
+
 
 .check{
     width: 3.5vw;
@@ -65,5 +65,7 @@ input[type="text"]{
     text-align: left;
 
 }
+
+
 
 

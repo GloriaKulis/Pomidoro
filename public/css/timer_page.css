@@ -1,0 +1,65 @@
+
+.toDoList_button{
+    margin-left: 7vw;
+}
+
+main{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+    width: 50vw;
+    height: 431px;
+ 
+
+}
+
+.desc{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+text{
+
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.setup{
+    width: 151px;
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    height: 7vh;
+    
+    background: #D9D9D9;
+    border-radius: 30px;
+    border: #D9D9D9;
+    margin-block-end: 6vh;
+    
+    
+    text-align: center;
+
+}
+
+
