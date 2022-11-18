@@ -7,7 +7,8 @@ $path = parse_url($path,PHP_URL_PATH);
 
 
 
-Routing::get('index','DefaultController');
+Routing::get('','DefaultController');
+Routing::post('login','SecurityController');
 Routing::get('timer','DefaultController');
 Routing::get('toDoList','DefaultController');
 Routing::get('statistics','DefaultController');
