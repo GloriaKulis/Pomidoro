@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <?php include "extra/configuration.html"?>
+    <?php include('extra/configuration.php') ?>
  
     <link rel ="stylesheet" type="text/css" href="public/css/timer_page.css">
 
@@ -9,7 +9,7 @@
 <body>
     <div class="base_cointainer">
         <nav>
-            <?php include "extra/header.html"?>
+            <?php include "extra/header.php" ?>
         <!-- </nav> -->
 
         <main>

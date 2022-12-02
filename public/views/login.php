@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link rel ="stylesheet" type = "text/css" href="public/css/login_page.css">
-    <?php include "extra/configuration.html"?>
+    <?php include "extra/configuration.php" ?>
     
 </head>
 <body>
@@ -25,18 +25,21 @@
        </div> 
 
         <div class="login-container">
-            <form>
-                <div class="login-field">
-                    <input name="login" type = "text" placeholder="login" >
-
+            <form class =" login" action="login" method="post">
+                <div class="messages">
+                    <?php
+                    if(isset($messages)){
+                        foreach($messages as $message) {
+                            echo $message;
+                        }
+                    }
+                    ?>
                 </div>
-                <div class="password-field">
-                    <input name="password" type="password" placeholder="password" >
-                </div>
 
-                <a href="timer">
-                    <button title="zaloguj">zaloguj</button>
-                </a>
+                <input name="email" type="text" placeholder="email@email.com">
+                <input name="password" type="password" placeholder="password">
+                <button type="submit" title="zaloguj">zaloguj</button>
+
                 
             </form>
 

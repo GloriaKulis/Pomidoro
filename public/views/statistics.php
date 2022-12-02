@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <?php include "extra/configuration.html"?>
+    <?php include "extra/configuration.php" ?>
     <link rel ="stylesheet" type = "text/css" href="public/css/statics.css">
     
 </head>
@@ -8,7 +8,7 @@
 <body>
     <div class="base_cointainer">
         <nav>
-        <?php include "extra/header.html"?>
+        <?php include "extra/header.php" ?>
         <!-- </nav> -->
 
         <main>
@@ -19,7 +19,7 @@
         </main>
 
 
-        <?php include "extra/footer.html"?>
+        <?php include "extra/footer.php" ?>
         
     </div>
                 
